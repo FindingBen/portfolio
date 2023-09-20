@@ -3,14 +3,13 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import unnamed from "../../public/unnamed.jpg";
-import capture from "../../public/Capture2.png";
-import capture2 from "../../public/Capture3.png";
-import cap4 from "../../public/Cap5.png";
-import reactSvg from "../../public/React-icon.svg.png";
-import django from "../../public/Django.png";
+import capture from "../../public/capture2.png";
+import capture2 from "../../public/capture3.png";
+import cap4 from "../../public/cap5.png";
+import reactSvg from "../../public/react-icon.svg.png";
+import django from "../../public/django.png";
 import redux from "../../public/redux.jpg";
 import azure from "../../public/azure.png";
-
 
 export default function Home() {
   return (
