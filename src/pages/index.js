@@ -182,7 +182,7 @@ export default function Home() {
             </div>
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
               <a href="#">
-                <Image class="rounded-t-lg" src={cap3} alt="" width={390} />
+                <Image class="rounded-t-lg" src={capture3} alt="" width={390} />
               </a>
               <div class="p-5">
                 <a href="#">
