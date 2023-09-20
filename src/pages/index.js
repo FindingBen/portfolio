@@ -9,7 +9,7 @@ import unnamed from "../../public/unnamed.jpg";
 // import reactSvg from "../../public/react-icon.svg.png";
 // import django from "../../public/django.png";
 // import redux from "../../public/redux.jpg";
-// import azure from "../../public/azure.png";
+import azure from "../../public/azure.png";
 
 export default function Home() {
   return (
@@ -222,8 +222,8 @@ export default function Home() {
             <br></br>
           </h3>
 
-          {/* <ul className="text-gray-400 flex justify-between mb-10">
-            <li>
+          <ul className="text-gray-400 flex justify-between mb-10">
+            {/* <li>
               <Image src={reactSvg} width={150} />
             </li>
             <li>
@@ -231,11 +231,11 @@ export default function Home() {
             </li>
             <li>
               <Image src={django} width={150} />
-            </li>
+            </li> */}
             <li>
               <Image src={azure} width={150} />
             </li>
-          </ul> */}
+          </ul>
         </div>
       </section>
     </div>
