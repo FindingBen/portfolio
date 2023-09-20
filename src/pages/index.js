@@ -3,7 +3,6 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import unnamed from "../../public/unnamed.jpg";
-import placeholder from "../../public/placeholder.jpg";
 import capture from "../../public/Capture2.png";
 import capture2 from "../../public/Capture3.png";
 import cap4 from "../../public/Cap5.png";
