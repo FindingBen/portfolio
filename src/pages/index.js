@@ -3,8 +3,8 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import unnamed from "../../public/unnamed.jpg";
-import capture2 from "../../public/capture2.png";
-import capture3 from "../../public/capture3.png";
+// import capture2 from "../../public/capture2.png";
+// import capture3 from "../../public/capture3.png";
 import cap5 from "../../public/cap5.png";
 import reactSvg from "../../public/react-icon.svg.png";
 import django from "../../public/django.png";
@@ -142,7 +142,7 @@ export default function Home() {
               <a href="https://app.getlouis.com/" target="_blank">
                 <Image
                   class="rounded-t-lg"
-                  src={capture2}
+                  src={redux}
                   alt=""
                   width={590}
                   height={180}
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
               <a href="#">
-                <Image class="rounded-t-lg" src={capture3} alt="" width={390} />
+                <Image class="rounded-t-lg" src={redux} alt="" width={390} />
               </a>
               <div class="p-5">
                 <a href="#">
