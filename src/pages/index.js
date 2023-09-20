@@ -5,11 +5,11 @@ import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import unnamed from "../../public/unnamed.jpg";
 // import capture2 from "../../public/capture2.png";
 // import capture3 from "../../public/capture3.png";
-import cap5 from "../../public/cap5.png";
-import reactSvg from "../../public/react-icon.svg.png";
-import django from "../../public/django.png";
-import redux from "../../public/redux.jpg";
-import azure from "../../public/azure.png";
+// import cap5 from "../../public/cap5.png";
+// import reactSvg from "../../public/react-icon.svg.png";
+// import django from "../../public/django.png";
+// import redux from "../../public/redux.jpg";
+// import azure from "../../public/azure.png";
 
 export default function Home() {
   return (
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row sm:flex-row mt-10 justify-center">
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:ml-0 sm:ml-0 mb-10">
               <a href="#">
-                <Image class="rounded-t-lg" src={cap5} alt="" />
+                {/* <Image class="rounded-t-lg" src={cap5} alt="" /> */}
               </a>
               <div class="p-5">
                 <a href="#">
@@ -140,14 +140,14 @@ export default function Home() {
             </div>
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:my-0 my-3 lg:mx-6 lg:mb-10 md:mx-6">
               <a href="https://app.getlouis.com/" target="_blank">
-                <Image
+                {/* <Image
                   class="rounded-t-lg"
                   src={redux}
                   alt=""
                   width={590}
                   height={180}
                   objectFit="cover"
-                />
+                /> */}
               </a>
               <div class="p-5">
                 <a href="https://app.getlouis.com/" target="_blank">
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
               <a href="#">
-                <Image class="rounded-t-lg" src={redux} alt="" width={390} />
+                {/* <Image class="rounded-t-lg" src={redux} alt="" width={390} /> */}
               </a>
               <div class="p-5">
                 <a href="#">
@@ -222,7 +222,7 @@ export default function Home() {
             <br></br>
           </h3>
 
-          <ul className="text-gray-400 flex justify-between mb-10">
+          {/* <ul className="text-gray-400 flex justify-between mb-10">
             <li>
               <Image src={reactSvg} width={150} />
             </li>
@@ -235,7 +235,7 @@ export default function Home() {
             <li>
               <Image src={azure} width={150} />
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </div>
