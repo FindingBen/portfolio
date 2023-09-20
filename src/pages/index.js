@@ -11,6 +11,7 @@ import django from "../../public/Django.png";
 import redux from "../../public/redux.jpg";
 import azure from "../../public/azure.png";
 
+
 export default function Home() {
   return (
     <div>
