@@ -10,12 +10,14 @@ import reactSvg from "../../public/react-icon.svg.png";
 import django from "../../public/django.png";
 import redux from "../../public/redux.jpg";
 import azure from "../../public/azure.png";
+import powerbi from "../../public/powerBi.png";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Portfolio</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
 
       <section
@@ -217,7 +219,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-center mx-20">
-          <h3 className="text-3xl py-1 text-gray-400 flex justify-center mt-10">
+          <h3 className="text-3xl py-1 text-gray-400 flex justify-center mt-10 mb-10">
             Technology I work with
             <br></br>
           </h3>
@@ -234,6 +236,9 @@ export default function Home() {
             </li>
             <li>
               <Image src={azure} width={150} />
+            </li>
+            <li>
+              <Image src={powerbi} width={150} />
             </li>
           </ul>
         </div>
