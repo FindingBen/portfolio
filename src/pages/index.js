@@ -71,8 +71,8 @@ export default function Home() {
           </h3>
 
           <p className="text-md py-5 leading-8 text-gray-300">
-            Masters graduate in Mediology that has over 4 years of experiance
-            with developing web applications, designing software and some data
+            Fullstack developer with 5 years of experiance
+            with developing web applications, SaaS, designing software and some data
             automation pipeline including data analysis. I mainly work in
             Javascript and Python but I also like working with new stuff as its
             always exciting to expand my horizonts.<br></br>
