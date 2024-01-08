@@ -6,11 +6,13 @@ import unnamed from "../../public/unnamed.jpg";
 import capture2 from "../../public/capture2.png";
 import capture3 from "../../public/capture3.png";
 import cap5 from "../../public/cap5.png";
+//import mock1 from "../../public/mock1.png";
 import reactSvg from "../../public/react-icon.svg.png";
 import django from "../../public/django.png";
 import redux from "../../public/redux.jpg";
 import azure from "../../public/azure.png";
 import powerbi from "../../public/powerBi.png";
+import mock1 from "../../public/mock1.png";
 
 export default function Home() {
   return (
@@ -53,7 +55,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/12DebQqSgc_5RXM1wpFDjWEb3J3OxUJ97/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gZQsiijIDxHNnngeiiKy5WtE7PU0w4Ix/view?usp=drive_link"
                 target="_blank"
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 bg-cyan-900 border-none rounded-md"
               >
@@ -67,15 +69,17 @@ export default function Home() {
             Benjamin Agic
           </h2>
           <h3 className="text-2xl py-2 text-gray-300">
-            Web Developer and Data automation
+            Software developer and Data automation
           </h3>
 
           <p className="text-md py-5 leading-8 text-gray-300">
-            Fullstack developer with 5 years of experiance
-            with developing web applications, SaaS, designing software and some data
-            automation pipeline including data analysis. I mainly work in
-            Javascript and Python but I also like working with new stuff as its
-            always exciting to expand my horizonts.<br></br>
+            Fullstack developer with over 5 years of experiance with developing
+            web applications, SaaS, designing software and some data automation
+            pipeline including data analysis. Also experianced with integrating
+            3rd party services such as: payment system, email automation and
+            messaging service(sms). I mainly work in Javascript and Python but I
+            also like working with new stuff as am always looking to expand my
+            toolbox.<br></br>
             In my free time I enjoy hanging out with friends, exploring,
             traveling, playing football and surfing..if conditions are good ;)
             If you would like to get in touch and talk about any of the stuff I
@@ -87,10 +91,7 @@ export default function Home() {
           <a href="https://github.com/FindingBen" target="_blank">
             <AiFillGithub className="hover:bg-gray-800 rounded-md cursor-pointer" />
           </a>
-          <a
-            href="https://www.linkedin.com/in/benjamin-agic-1a055a10b/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/benjamin-agic/" target="_blank">
             <AiFillLinkedin className="hover:bg-gray-800 rounded-md cursor-pointer" />
           </a>
           <a href="https://www.instagram.com/benii14/" target="_blank">
@@ -106,20 +107,19 @@ export default function Home() {
           </h3>
           <div className="flex flex-col md:flex-row sm:flex-row mt-10 justify-center">
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:ml-0 sm:ml-0 mb-10">
-              <a href="#">
-                <Image class="rounded-t-lg" src={cap5} alt="" />
+              <a href="https://sendperplane.com/">
+                <Image class="rounded-t-lg" src={mock1} alt="" />
               </a>
               <div class="p-5">
-                <a href="#">
+                <a href="https://sendperplane.com/">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Sendperplane - marketing platform
+                    Sendperplane - sms marketing platform
                   </h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   SaaS developed for micro messeging allowing users to create a
                   personalized content and use sms service to send it to their
-                  customers allowing them to have a better response from
-                  customers.
+                  recipients allowing them to have a better response from them.
                 </p>
                 <div className="flex inline-flex">
                   <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 p-2 rounded dark:bg-blue-900 dark:text-blue-300">
